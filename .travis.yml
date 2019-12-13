@@ -8,7 +8,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: cFc6CoDevkcgbdzvCaA1LdqRAH0sJ+7clmGGk+zbD4+G0oRLn07BprPv82QHpmllFf5sYbrSaLhOsXda0m25l  app: boiling-spring-21825  <------------
-  app: cisc314-assn8
+    secure: kfM1v5Yh+nplw7flChLLaaHV5C0u2SCyaBmRipJEWQGU6vPK1FZtOrJ59pwTM2x+E/vxR2+JbIsY1ceH9A34y7RnOc23VSZ6I5BbkMvrGrmves/YkQe5CVC2YnxSAr4g32nJrrlyQVJBhBoOLea/iKjvC35wkMXR32j+u8uU8M940YKRACPa73CtjYMosndyuR8K7e/VgnP5RecJkaTRXERXJXGTiaqem5pebylFFNTgmmck5hkjTrwyLXENjeAl8OluobMb56yLyysrWS6UcYjxuBtVONMn53v2F4wOUZ6kYDD4M1eqwMYPIs81MKBeePEz+5BJMUehlN7E5hnbO05bo6rOVrKFD5hJn/FdZ3dp/psf+v+RsonDxDYWrwdo+mWxxHQG3r+djnbzeomZEXxENYwQySkHFgybH5vC4QYn9uCniCEuG135hoOwgKUttK3gB0g+pkQuu9N5V5oF22pebP1kxXjgGTzWA5S1D97o1WTPCwp9GC+UxWPp3Q8TMHeEGKQAjNhnKQ8p0PiLSz6MmRkSwRkRTJJcQ+Yig3jyaK7Oas4MWs6VZV/hkmVgZiGO0xGxpyskNaLRFGc+BhixVKpjTXFQUAv4pE0XuSru/pTL3St/ZADKoBIwepPm9q1KU0/lvdJPvp/8Vdrm9w2GpBjpPlXIAuVqRxc35Tg=
+  app: cisc3140-assn8
   on:
     repo: taimoorh5/Assignment8
