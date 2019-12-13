@@ -1,0 +1,56 @@
+0.83s$ git clone --depth=50 --branch=master https://github.com/taimoorh5/Assignment8.git taimoorh5/Assignment8
+0.01s0.01s$ source ~/virtualenv/python3.7/bin/activate
+$ python --version
+Python 3.7.1
+$ pip --version
+pip 19.0.3 from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/pip (python 3.7)
+install
+1.69s$ pip install -r requirements.txt
+0.81s$ python flasktest.py
+The command "python flasktest.py" exited with 0.
+dpl_0
+1.61s$ rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install dpl
+38.49s
+dpl.1
+Installing deploy dependencies
+dpl.2
+Preparing deploy
+dpl.3
+Deploying application
+creating application archive
+uploading application archive
+triggering new deployment
+-----> Python app detected
+-----> Installing python-3.6.9
+-----> Installing pip
+-----> Installing SQLite3
+Sqlite3 successfully installed.
+-----> Installing requirements with pip
+       Collecting Flask==1.1.1 (from -r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 1))
+         Downloading https://files.pythonhosted.org/packages/9b/93/628509b8d5dc749656a9641f4caf13540e2cdec85276964ff8f43bbb1d3b/Flask-1.1.1-py2.py3-none-any.whl (94kB)
+       Collecting gunicorn==19.7.1 (from -r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 2))
+         Downloading https://files.pythonhosted.org/packages/64/32/becbd4089a4c06f0f9f538a76e9fe0b19a08f010bcb47dcdbfbc640cdf7d/gunicorn-19.7.1-py2.py3-none-any.whl (111kB)
+       Collecting Werkzeug>=0.15 (from Flask==1.1.1->-r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 1))
+         Downloading https://files.pythonhosted.org/packages/ce/42/3aeda98f96e85fd26180534d36570e4d18108d62ae36f87694b476b83d6f/Werkzeug-0.16.0-py2.py3-none-any.whl (327kB)
+       Collecting Jinja2>=2.10.1 (from Flask==1.1.1->-r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 1))
+         Downloading https://files.pythonhosted.org/packages/65/e0/eb35e762802015cab1ccee04e8a277b03f1d8e53da3ec3106882ec42558b/Jinja2-2.10.3-py2.py3-none-any.whl (125kB)
+       Collecting click>=5.1 (from Flask==1.1.1->-r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 1))
+         Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+       Collecting itsdangerous>=0.24 (from Flask==1.1.1->-r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 1))
+         Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+       Collecting MarkupSafe>=0.23 (from Jinja2>=2.10.1->Flask==1.1.1->-r /tmp/build_450c7bcc3665749267edf0fff0f5d8c3/requirements.txt (line 1))
+         Downloading https://files.pythonhosted.org/packages/b2/5f/23e0023be6bb885d00ffbefad2942bc51a620328ee910f64abe5a8d18dd1/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+       Installing collected packages: Werkzeug, MarkupSafe, Jinja2, click, itsdangerous, Flask, gunicorn
+       Successfully installed Flask-1.1.1 Jinja2-2.10.3 MarkupSafe-1.1.1 Werkzeug-0.16.0 click-7.0 gunicorn-19.7.1 itsdangerous-1.1.0
+-----> Discovering process types
+       Procfile declares types -> web
+-----> Compressing...
+       Done: 45.1M
+-----> Launching...
+       Released v3
+       https://cisc3140-assn8.herokuapp.com/ deployed to Heroku
+No stash entries found.
+Done. Your build exited with 0..
+
+
+
